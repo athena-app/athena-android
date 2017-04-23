@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.getathena.umptest.LessonViewActivity"
+    android:background="@color/colorPrimary">
+
+     <RelativeLayout
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+         android:layout_marginBottom="8dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="8dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="1.0">
+
+          <fragment
+              android:id="@+id/youtube_fragment"
+              android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginEnd="8dp"
+              android:layout_marginLeft="8dp"
+              android:layout_marginRight="8dp"
+              android:layout_marginStart="8dp"
+              android:layout_marginTop="8dp"
+              app:layout_constraintLeft_toLeftOf="parent"
+              app:layout_constraintRight_toRightOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+          <Button
+              android:id="@+id/button"
+              style="@style/Widget.AppCompat.Button.Borderless.Colored"
+              android:layout_width="150dp"
+              android:layout_height="45dp"
+              android:layout_alignEnd="@+id/youtube_fragment"
+              android:layout_below="@+id/youtube_fragment"
+              android:layout_marginTop="12dp"
+              android:background="@color/colorPrimaryDark"
+              android:elevation="5dp"
+              android:text="Explore in VR"
+              android:textColor="@color/colorAccentLight"
+              tools:layout_editor_absoluteX="131dp"
+              tools:layout_editor_absoluteY="65dp" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="150dp"
+              android:layout_height="45dp"
+              android:gravity="center_vertical|center_horizontal"
+              android:text="The Frontier is Everywhere"
+              android:textAlignment="textStart"
+              android:textColor="@color/colorAccent"
+              android:layout_above="@+id/scrollView2"
+              android:layout_alignStart="@+id/youtube_fragment" />
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="180dp"
+              android:layout_below="@+id/button"
+              android:layout_alignParentEnd="true"
+              android:id="@+id/scrollView2">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+               </LinearLayout>
+          </ScrollView>
+
+          <TextView
+              android:id="@+id/textView4"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="11dp"
+              android:text="Description\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at condimentum neque, tristique consequat erat. Sed aliquam, urna eget pulvinar mattis, erat nunc aliquet dui, sit amet venenatis augue tellus nec metus. In varius finibus lectus id dapibus. Proin tempus leo convallis lectus gravida, ac facilisis turpis pretium. Nullam vel dictum ligula. Suspendisse tortor erat, placerat a libero in, porta varius orci. Ut diam tortor, tristique a ornare eu, consequat eget ligula. Praesent id dui sit amet orci egestas mattis ac a lorem. Praesent non orci ut nulla pulvinar aliquet eget sit amet tortor. Aenean convallis lorem sed mauris commodo varius. Donec malesuada accumsan justo id posuere. Vivamus dictum aliquet dolor sit amet ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sit amet diam metus. Praesent tempus euismod enim, sagittis ullamcorper massa ullamcorper ut. Phasellus sed sollicitudin leo, et imperdiet est.\n\nSed placerat et odio vel volutpat. In porttitor pellentesque porttitor. Praesent imperdiet mi turpis, eu commodo orci hendrerit sed. Nam nibh est, sodales nec cursus ut, ornare at purus. Sed a felis quis elit vestibulum elementum non et dolor. Fusce aliquet sodales libero, non sollicitudin arcu interdum eu. Donec malesuada tellus luctus orci malesuada, id dapibus lacus suscipit. Nullam condimentum pulvinar arcu at viverra."
+              android:textColor="@color/snow"
+              android:layout_below="@+id/button"
+              android:layout_alignParentStart="true" />
+
+     </RelativeLayout>
+
+     ]
+
+</android.support.constraint.ConstraintLayout>
