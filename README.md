@@ -7,7 +7,8 @@ As virtual reality developers, we saw a major lack of vr educational platforms. 
 Athena is a mobile learning management system that focuses on virtual reality.
 
 <img src="images/SingleSignOn.png" alt="Single Sign On" width="240" height="426"/> <img src="images/Courses.png" alt="Courses" width="240" height="426"/> <img src="images/Lessons.png" alt="Lessons" width="240" height="426"/>
-<img src="images/LessonView.png" alt="Lesson View" width="240" height="426"/> <img src="images/VRVideo.png" alt="VR Video" width="240" height="426"/> <img src="images/VRModel.png" alt="VR Model" width="240" height="426"/>
+<img src="images/LessonView.png" alt="Lesson View" width="240" height="426"/> <img src="images/VRVideo.png" alt="VR Video" width="426" height="240"/> 
+<img src="images/VRModel.png" alt="VR Model" width="426" height="240"/>
 
 
 
