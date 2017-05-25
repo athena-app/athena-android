@@ -6,7 +6,7 @@ As virtual reality developers, we saw a major lack of vr educational platforms. 
 ### What it does
 Athena is a mobile learning management system that focuses on virtual reality.
 
-[Single Sign On](https://github.com/athena-app/athena-android/images/SingleSignOn.png)
+[Single Sign On](https://github.com/athena-app/athena-android/blob/master/images/SingleSignOn.png)
 
 ### What's next for Athena
 AR and Networking! Students will soon be able engage with their professor's and their peers.
