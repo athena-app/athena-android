@@ -15,7 +15,7 @@ Athena is a mobile learning management system that focuses on virtual reality.
 <img src="images/VRSkyBox.png" alt="VR SkyBox" width="426" height="240"/>
 
 ### What's next for Athena
-AR and Networking! Students will soon be able engage with their professor's and their peers.
+AR and Networking! Students will soon be able engage with their professor's and their peers. Let's keep this going
 
 ### [Try it out!](http://getathena.io)
 
