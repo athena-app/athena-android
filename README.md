@@ -17,6 +17,6 @@ Athena is a mobile learning management system that focuses on virtual reality.
 ### What's next for Athena
 AR and Networking! Students will soon be able engage with their professor's and their peers. Let's keep this going
 
-### [Try it out!](http://getathena.io)
+### [Try it out!](https://athena.bryson.cc)
 
 #### For more information check the [DevPost](https://devpost.com/software/athena-3q5e4i)
